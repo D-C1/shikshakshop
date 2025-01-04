@@ -60,7 +60,7 @@ const MARKETPLACES = {
 // Create and inject the chat interface
 function createChatInterface() {
   const container = document.createElement('div');
-  container.id = 'shop-assistant';
+  container.id = 'shikshak-assistant';
   container.style.cssText = `
     position: fixed;
     right: 20px;
@@ -79,7 +79,7 @@ function createChatInterface() {
   container.innerHTML = `
     <div style="padding: 16px; display: flex; flex-direction: column; height: 100%; box-sizing: border-box;">
       <div style="display: flex; justify-content: space-between; margin-bottom: 16px;">
-        <h3 style="margin: 0;">Shop Shutup</h3>
+        <h3 style="margin: 0;">ShikShakShop</h3>
         <button id="close-chat" style="border: none; background: none; cursor: pointer;">×</button>
       </div>
       <div id="chat-messages" style="

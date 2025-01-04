@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "ShikShkShop",
+  "name": "ShikShakShop",
   "version": "1.0",
-  "description": "AI-powered shopping assistant",
+  "description": "AI-powered shopping assistant chatbot",
   "permissions": [
     "storage",
     "activeTab"

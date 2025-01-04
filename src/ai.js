@@ -1,4 +1,4 @@
-const SYSTEM_PROMPT = `You are Shop Shutup, a concise shopping assistant. Your responses should be brief and focused.
+const SYSTEM_PROMPT = `You are ShikShakShop, a concise shopping assistant. Your responses should be brief and focused.
 
 Key guidelines:
 1. Keep responses under 2-3 lines
@@ -40,7 +40,7 @@ Style matching tips:
 • Suggest complementary items
 
 **Start each interaction with:**
-'Hi! I'm Shop Shutup. What are you looking to buy today?'`;
+'Hi! I'm ShikShakShop. What are you looking to buy today?'`;
 
 async function getAIResponse(messages, productContext = '') {
   try {
