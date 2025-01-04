@@ -1,59 +1,46 @@
-# Shop Shutup
+# ShikShakShop
 
-A Chrome extension that provides an AI-powered shopping assistant to help users make informed purchase decisions across multiple shopping platforms. Get personalized product guidance and smart search suggestions based on your needs.
+Your AI fashion bestie that helps you find *exactly* what you're looking for. ✨
+
+## Our Philosophy
+We believe shopping for fashion should be:
+- **Fun**, not frustrating
+- **Smart**, not overwhelming
+- **Personal**, not one-size-fits-all
+
+ShikShakShop combines the power of AI with your unique style to create a shopping experience that's as enjoyable as chatting with a fashionable friend who actually gets your vibe.
 
 ## Features
-- AI-powered chat interface
-- Product requirement analysis
-- Budget consideration
-- Feature comparison assistance
-- Multi-platform shopping guidance:
-  - Filtered search links based on requirements
-  - Price range buffer for better results
-  - Review insights integration
-  - Cross-platform product research
-- Intelligent shopping guidance:
-  - Use-case based recommendations
-  - Price range insights with context
-  - Automatic filter application
-  - Platform-specific search optimization
+- AI-powered fashion assistant using GPT-4
+- Multi-retailer search (Amazon, Macy's, Nordstrom, ZARA, ASOS)
+- Smart price and size filtering
+- Personalized style recommendations
+- Amazon product context awareness
+- No more endless scrolling or tab overload! 🛍️
 
 ## Installation
-1. Clone the repository
-2. Install dependencies: `npm install`
-3. Build the extension: `npm run build`
-4. Load the extension in Chrome:
-   - Go to `chrome://extensions/`
-   - Enable "Developer mode"
-   - Click "Load unpacked"
-   - Select the `dist` folder
-
-## Development
-- `npm run dev` - Watch mode for development
-- `npm run build` - Production build
+1. Clone this repository
+2. Run `npm install`
+3. Run `npm run build`
+4. Load the `dist` folder as an unpacked extension in Chrome
 
 ## Configuration
-1. Get an OpenAI API key from [platform.openai.com](https://platform.openai.com)
-2. Right-click the extension icon and select "Options"
-3. Enter your API key and save
+1. Get an OpenAI API key (GPT-4 access required)
+2. Click the extension icon and add your API key in settings
+3. Start shopping with your new fashion bestie! 💁‍♀️
 
-## How It Works
-1. Tell the assistant what you're looking to buy
-2. Answer questions about your needs and budget
-3. Get personalized recommendations with:
-   - Multi-platform search suggestions
-   - Popular marketplace recommendations
-   - Price range guidance
-   - Feature recommendations
-   - Review insights
+## Development
+- `npm run build` - Build the extension
+- `npm run watch` - Watch for changes and rebuild
 
-## Smart Shopping Features
-- Automatic price range buffer (±20%)
-- Rating filters for quality assurance
-- Cross-platform price comparison
-- Platform-specific search optimization
-- Marketplace preference options
+## Usage
+1. Click the ShikShakShop icon on any webpage
+2. Tell the AI what fashion piece you're dreaming of
+3. Get personalized recommendations with direct search links
+4. Shop smarter, not harder! 💃
 
-## Version History
-- 1.0.1 - Enhanced shopping guidance & Amazon integration
-- 1.0.0 - Initial release with basic AI chat functionality 
+## Why ShikShakShop?
+- **Time-saving**: No more endless scrolling through multiple sites
+- **Budget-friendly**: Price filtering that actually makes sense
+- **Style-savvy**: Recommendations that match your unique taste
+- **Stress-free**: Shopping should be fun, not overwhelming 
