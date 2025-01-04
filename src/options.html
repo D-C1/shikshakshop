@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shop Shutup Settings</title>
+  <style>
+    body { padding: 20px; font-family: Arial, sans-serif; }
+    .container { max-width: 500px; margin: 0 auto; }
+    input { width: 100%; padding: 8px; margin: 8px 0; }
+    button { padding: 8px 16px; background: #0066cc; color: white; border: none; border-radius: 4px; }
+    .platform-options { margin: 20px 0; }
+    .platform-option { margin: 10px 0; }
+    .style-preferences { margin: 20px 0; }
+    .style-section { margin: 10px 0; }
+    .style-section label { display: block; margin-bottom: 5px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Shop Shutup Settings</h2>
+    
+    <p>Enter your OpenAI API key:</p>
+    <input type="password" id="apiKey" placeholder="sk-...">
+    
+    <div class="platform-options">
+      <h3>Preferred Shopping Platforms</h3>
+      <div class="platform-option">
+        <input type="checkbox" id="platform_amazon" checked>
+        <label for="platform_amazon">Amazon</label>
+      </div>
+      <div class="platform-option">
+        <input type="checkbox" id="platform_walmart" checked>
+        <label for="platform_walmart">Walmart</label>
+      </div>
+      <div class="platform-option">
+        <input type="checkbox" id="platform_bestbuy" checked>
+        <label for="platform_bestbuy">Best Buy</label>
+      </div>
+    </div>
+    
+    <div class="style-preferences">
+      <h3>Style Preferences</h3>
+      <div class="style-section">
+        <label>Favorite Colors</label>
+        <input type="text" id="style_colors" placeholder="e.g., navy, earth tones, pastels">
+      </div>
+      <div class="style-section">
+        <label>Pattern Preferences</label>
+        <input type="text" id="style_patterns" placeholder="e.g., solid, stripes, floral">
+      </div>
+      <div class="style-section">
+        <label>Preferred Fits</label>
+        <input type="text" id="style_fits" placeholder="e.g., slim fit, relaxed, regular">
+      </div>
+      <div class="style-section">
+        <label>Favorite Brands</label>
+        <input type="text" id="style_brands" placeholder="e.g., Nike, Levi's, H&M">
+      </div>
+      <div class="style-section">
+        <label>Common Occasions</label>
+        <input type="text" id="style_occasions" placeholder="e.g., work, casual, formal">
+      </div>
+    </div>
+    
+    <button id="save">Save</button>
+    <p id="status"></p>
+  </div>
+  <script src="options.js"></script>
+</body>
+</html> 
