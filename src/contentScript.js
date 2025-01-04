@@ -113,7 +113,7 @@ function createChatInterface() {
   document.body.appendChild(container);
   
   let messageHistory = [
-    { role: 'assistant', content: "Hi! I'm Shop Shutup. What are you looking to buy today?" }
+    { role: 'assistant', content: "Let's ShikShakShop! Tell me what fashion piece you're dreaming of today." }
   ];
   
   // Session context
@@ -181,7 +181,7 @@ function createChatInterface() {
   }
 
   // Show initial greeting
-  addMessage("Hi! I'm Shop Shutup. What are you looking to buy today?", false);
+  addMessage("Let's ShikShakShop! Tell me what fashion piece you're dreaming of today.", false);
 
   // Handle sending messages
   async function handleSendMessage() {
