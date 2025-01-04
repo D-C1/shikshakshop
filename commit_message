@@ -1,0 +1,8 @@
+feat: Initial release of ShikShakShop
+
+- Implement chat interface with GPT-4 integration
+- Add fashion-focused shopping assistant
+- Support Amazon, Macy's, Nordstrom, ZARA, and ASOS search
+- Include price and size filtering in search URLs
+- Add Amazon product context detection
+- Create options page for API key management 
